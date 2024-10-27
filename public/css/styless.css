@@ -1,0 +1,669 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Các lớp CSS cho các phần tử */
+/* Menu hover hiệu ứng */
+/* Định dạng menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #9bd3da, #ffffff);
+    padding: 10px 10px;
+    /* Increased padding for better spacing */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ccc;
+}
+
+
+
+.logo img {
+    width: 130px;
+    height: 90px;
+    margin: 0px;
+    /* Added margin for better spacing */
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    margin: 0;
+    font-size: 16px;
+    padding: 5px 20px;
+    /* Increased padding for better spacing */
+}
+
+.menu-items li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.menu-items li:hover {
+    background-color: #e1ef19e8;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Định dạng swiper-container */
+.swiper-container {
+    width: 100%;
+    height: 800px;
+    margin-top: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng swiper-slide */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Định dạng ảnh trong swiper-slide */
+.swiper-slide img {
+    width: 30px;
+    height: 800px;
+    object-fit: cover;
+}
+
+/* Định dạng search form */
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    transition: box-shadow 0.3s;
+}
+
+.search-form input[type="text"]:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-form button {
+    padding: 10px 10px;
+    background-color: #1ce3f1;
+    color: #181717;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+    background-color: #e0c513;
+}
+
+
+/* ---------------------endmune--------------------------*/
+
+
+.banner img {
+    width: 100%;
+    height: 800px;
+    margin-top: 1px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/*-------------------------endbanner----------------------*/
+/*-----*/
+
+
+/*---------------------------------------endproductcategory------------------------------------------------------*/
+
+
+/*--------------------------------------------end product new------------------------------*/
+
+
+
+/*----------------------------------------------------endnewpost------------------------------*/
+
+/*của trang ssan pham */
+
+
+/*---------------------------trangsanpham ----------------------------*/
+/*footer*/
+.footer {
+    background-color: #fefefe;
+    padding: 20px 0;
+}
+
+.footer .footer-info,
+.footer .footer-social,
+.footer .footer-payment-methods {
+    margin-bottom: 20px;
+}
+
+
+.footer img {
+    width: 52px;
+    height: 42px;
+    margin-right: 22px;
+}
+
+
+/*------------------------------------endfooter-----------------------------------------------*/
+
+
+/*------------------------------------------*encontact----------------------------------------------*/
+
+
+
+/*product_detail*/
+
+/*-------------------------------------------*endproduct_detail-------------------------------------/
+/*san pham giam gia*/
+
+
+
+
+/* css slider .....*/
+/*---------------------------------------slider-----------------------------------------------------*/
+.swiper-container {
+    width: 100%;
+    height: 460px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*action*/
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    /* Khoảng cách giữa các nút */
+}
+
+.action-buttons .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    /* Điều chỉnh padding nếu cần thiết */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #666;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.section-title {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #f3ef7f, #ffffff);
+    margin-bottom: 20px;
+    /* Add margin to create space below the section title */
+    margin-top: 20px;
+    /* Add margin to create space above the section title */
+}
+
+
+
+
+
+/*category*/
+.category-list {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-list h2 {
+    margin-top: 0;
+}
+
+.category-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* add this to make the list items display horizontally */
+    flex-wrap: wrap;
+    /* add this to make the list items wrap to the next line */
+    justify-content: space-between;
+    /* add this to make the list items have equal spacing */
+}
+
+.category-list li {
+    margin-bottom: 10px;
+    width: calc(25% - 20px);
+    /* adjust the width to make the images have equal spacing */
+    margin-right: 20px;
+}
+
+.category-list a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.category-list a:hover {
+    color: #23527c;
+}
+
+.category-list img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    /* adjust the height to make the images have equal heights */
+    object-fit: cover;
+    /* add this to make the images cover the entire width and height */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-list h5 {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #337ab7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------product-new-------------*/
+
+.product-new img:hover {
+    transform: scale(1.03);
+    transition: transform 0.5s ease;
+
+    /* scale up the image on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* add a subtle shadow on hover */
+    border-radius: 10px;
+    /* add a rounded corner to the image */
+}
+
+.product-sale img:hover {
+    transform: scale(1.03);
+    transition: transform 0.5s ease;
+   
+
+    /* scale up the image on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* add a subtle shadow on hover */
+    border-radius: 10px;
+    /* add a rounded corner to the image */
+}
+
+.new-spost img:hover {
+    transform: scale(1.03);
+    transition: transform 0.5s ease;
+
+    /* scale up the image on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* add a subtle shadow on hover */
+    border-radius: 10px;
+    /* add a rounded corner to the image */
+}
+
+/**/
+.product-card {
+    background-color: #b7aeae;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 5px);
+    /* make the box 10px smaller than the parent container */
+    margin: 10px auto;
+    /* equally spaced from the edges of the parent container */
+    /* center the box */
+}
+
+.product-image {
+    padding: 10px;
+    height: 250px;
+    /* Increase the height of the image container */
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-info {
+    padding: 10px;
+}
+
+.product-info h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-info h3 a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.product-info h3 a:hover {
+    color: #23527c;
+}
+
+.color-size {
+    margin-bottom: 10px;
+}
+
+.color-size .row {
+    align-items: center;
+}
+
+.color-size .col-8 {
+    padding-left: 0;
+}
+
+.color-size .col-4 {
+    padding-right: 0;
+}
+
+.color-size span {
+    display: inline-block;
+    width: 10px;
+    /* Reduce the size of the color icons */
+    height: 15px;
+    /* Reduce the size of the color icons */
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-right: 5px;
+
+}
+
+.color-size span.size_red {
+    background-color: #ff0000;
+}
+
+.color-size span.size_blue {
+    background-color: #0000ff;
+}
+
+.color-size span.size_green {
+    background-color: #00ff00;
+}
+
+.color-size span.size_yellow {
+    background-color: #ffff00;
+}
+
+.price_sale {
+    margin-bottom: 10px;
+}
+
+.price_sale .row {
+    align-items: center;
+}
+
+.price_sale .col-8 {
+    padding-left: 14px;
+}
+
+.price_sale .col-4 {
+    padding-right: 0;
+}
+
+.price_sale del {
+    font-size: 14px;
+    color: #999;
+    margin-right: 10px;
+}
+
+.price_sale .text-end {
+    font-size: 14px;
+    color: #337ab7;
+}
+
+
+
+/**/
+
+
+
+/*post all*/
+.postall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.post:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.post h2 {
+    font-weight: bold;
+    margin-top: 0;
+    color: #337ab7;
+}
+
+.post img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.post p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.post a {
+    text-decoration: none;
+    color: #337ab7;
+    transition: color 0.3s ease;
+}
+
+.post a:hover {
+    color: #23527c;
+}
+
+/*postdetail*/
+.postdetail {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.postdetail h1 {
+    font-weight: bold;
+    margin-top: 0;
+    color: #337ab7;
+}
+
+.postdetail img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.postdetail p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.postdetail div {
+    font-size: 16px;
+    color: #666;
+}
+
+/*menu*/
+/* 
+/* chính sách mua hang*/
+.chinhsach {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chinhsachmuahang {
+    margin-bottom: 20px;
+}
+
+.chinhsachmuahang img {
+    width: 60%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.chinhsachmuahang p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/*footermenu*/
+.footermenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footermenu li {
+    margin-bottom: 10px;
+}
+
+.footermenu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footermenu a:hover {
+    color: #ccc;
+}
+
+.footermenu a::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 0px;
+}
+
+.footermenu a:hover::before {
+    background-color: #ccc;
+}
+
+/*footter*/
